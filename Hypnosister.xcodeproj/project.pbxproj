@@ -14,6 +14,7 @@
 		2999280D1BE779D80061D603 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2999280C1BE779D80061D603 /* Images.xcassets */; };
 		299928101BE779D80061D603 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2999280E1BE779D80061D603 /* LaunchScreen.xib */; };
 		2999281C1BE779D80061D603 /* HypnosisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2999281B1BE779D80061D603 /* HypnosisterTests.m */; };
+		299928271BE77A5E0061D603 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 299928261BE77A5E0061D603 /* BNRHypnosisView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		299928151BE779D80061D603 /* HypnosisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnosisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2999281A1BE779D80061D603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2999281B1BE779D80061D603 /* HypnosisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosisterTests.m; sourceTree = "<group>"; };
+		299928251BE77A5E0061D603 /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
+		299928261BE77A5E0061D603 /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		299927F31BE779D80061D603 = {
 			isa = PBXGroup;
 			children = (
+				299928251BE77A5E0061D603 /* BNRHypnosisView.h */,
+				299928261BE77A5E0061D603 /* BNRHypnosisView.m */,
 				299927FE1BE779D80061D603 /* Hypnosister */,
 				299928181BE779D80061D603 /* HypnosisterTests */,
 				299927FD1BE779D80061D603 /* Products */,
@@ -221,6 +226,7 @@
 			files = (
 				299928081BE779D80061D603 /* ViewController.m in Sources */,
 				299928051BE779D80061D603 /* AppDelegate.m in Sources */,
+				299928271BE77A5E0061D603 /* BNRHypnosisView.m in Sources */,
 				299928021BE779D80061D603 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
