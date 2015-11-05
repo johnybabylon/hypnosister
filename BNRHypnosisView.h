@@ -10,4 +10,6 @@
 
 @interface BNRHypnosisView : UIView
 
+@property (strong, readonly, nonatomic) UIColor *circleColor;
+
 @end
